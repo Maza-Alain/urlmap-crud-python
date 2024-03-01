@@ -3,7 +3,7 @@ app = Flask(__name__)
 
     
 @app.route("/")
-def insertion_sort():
+def principal():
     return jsonify({"mensaje": "Datos recibidos correctamente."}), 200
 
 
